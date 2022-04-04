@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "outDir": "dis", // Where to put the TS files
-    "target": "ES3" // Which level of JS support to target
+    "target": "ES2015" // Which level of JS support to target
   },
   "include": ["src"] // Which files to compile
 }
