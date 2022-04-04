@@ -1,7 +1,8 @@
-/*
-* Create a promiste that resolves after some time
-* @param n number of miliseconds before promise resolves
+/** 
+ * Create a promise that resolves after some time
+ * @param n number of milliseconds before promise resolves.
 */
+
 function timeout(n: number) {
   return new Promise((res) => setTimeout(res, n))
 }
